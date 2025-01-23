@@ -27,5 +27,5 @@ def predict_emotion(img_path):
     return emotion
 
 # Test with a new image
-img_path = "Test Resources/20220816_084759.jpg"
+img_path = "Test Resources/happy.jpeg"
 print(predict_emotion(img_path))
